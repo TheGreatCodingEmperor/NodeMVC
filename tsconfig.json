@@ -70,5 +70,5 @@
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   },
   "include": ["src/**/*.ts"],          // 納入編譯範圍
-  "exclude": ["node_modules", "dist"]  //不納入編譯範圍
+  "exclude": ["node_modules", "dist","chain.sqlite3"]  //不納入編譯範圍
 }
